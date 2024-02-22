@@ -3,11 +3,56 @@
 
 <head>
     <title>Appsbender</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            background-color: #8f6bd1;
+            background-image: linear-gradient(to right top, #8f6bd1, #8770d9, #7d75e2, #717be9, #6380f1, #4990f9, #2a9efd, #00abff, #00c2ff, #00d7ff, #00eafa, #5ffbf1);
+            font-size: 15px;
+        }
+
+        .main-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .main-wrapper>.content {
+            text-align: center;
+            color: #fff;
+            max-width: 500px;
+            padding: .6rem 2.8rem;
+        }
+    </style>
+
 </head>
 
 <body>
-    <h1> Appsbender</h1>
-    <p>Under Construction</p>
+    <div class="main-wrapper">
+        <section class="content">
+            <img src="mono-logo.svg" style="max-width: 120px;"/>
+            <p>I'm currently working on improving my website to provide you with a better experience. Check back soon
+                for updates!</p>
+            <p>Thank you for your patience</p>
+        </section>
+    </div>
 </body>
 
 </html>
